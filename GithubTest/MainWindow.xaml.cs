@@ -24,5 +24,11 @@ namespace GithubTest
         {
             InitializeComponent();
         }
+        int Count = 0;
+        private void buttonCount_Click(object sender, RoutedEventArgs e)
+        {
+            Count++;
+            LabelShow.Content = Count;
+        }
     }
 }
